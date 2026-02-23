@@ -292,7 +292,7 @@ section {
 /* Profile Image + About layout (photo left, text right, stats column) */
 .about-main {
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 220px 1fr;
     gap: 2.5rem;
     align-items: start;
 }
@@ -303,10 +303,10 @@ section {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 280px;
     object-fit: cover;
-    border-radius: 16px; /* o 50% si la quieres circular */
+    border-radius: 16px;
     display: block;
 }
 
