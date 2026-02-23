@@ -289,18 +289,25 @@ section {
     background-color: var(--cream);
 }
 
-/* Profile Image */
+/* Profile Image + About layout (photo left, text right, stats column) */
+.about-main {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+}
+
 .about-image {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: center;  /* centra la foto dentro de su columna */
 }
 
 .profile-photo {
-    width: 80px;
-    height: auto;
-    border-radius: 12px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
+    border-radius: 16px; /* o 50% si la quieres circular */
+    display: block;
 }
 
 .about-content {
