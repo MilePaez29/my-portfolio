@@ -289,6 +289,20 @@ section {
     background-color: var(--cream);
 }
 
+/* Profile Image */
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
 .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
