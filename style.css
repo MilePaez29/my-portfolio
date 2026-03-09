@@ -475,15 +475,6 @@ section {
 }
 
 .portfolio-image {
-    height: 250px;
-    background: linear-gradient(135deg, var(--beige) 0%, var(--cream) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 2px solid var(--beige);
-}
-
-.portfolio-image {
     height: 100px;
     background: linear-gradient(135deg, var(--beige) 0%, var(--cream) 100%);
     display: flex;
